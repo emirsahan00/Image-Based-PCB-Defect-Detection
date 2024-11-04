@@ -27,23 +27,25 @@ pip install opencv-python-headless numpy scipy
 ```
 ## Kullanım
 
-Projenin kök dizininde, referans ve test görüntülerini içeren Reference/ ve rotation/ dizinlerini ve kusur koordinatlarını içeren Annotations/ dizinini oluşturun.
-Ana Python dosyasını çalıştırarak kusur tespitini ve doğruluk hesaplamasını başlatın
+Projenin kök dizininde, referans ve test görüntülerini içeren Reference/ ve rotation/ dizinlerini ve kusur koordinatlarını içeren Annotations/ dizinini oluşturun.  
+Ana Python dosyasını çalıştırarak kusur tespitini ve doğruluk hesaplamasını başlatın.
 ```bash
 defectDetection.py
 ```
 Çalıştırma sırasında fark görüntüsü ve tespit edilen kusurlar görselleştirilecektir.
 
-
-
+![hataGörüntüsü](https://github.com/user-attachments/assets/d80faa99-764f-45c5-a809-0b6ae7d8e582)
 
 
 ## Hesaplanan Metrikler
 
-Precision: Doğru tespit edilen kusurların, toplam tespit edilen kusurlara oranı.
-Recall: Doğru tespit edilen kusurların, toplam gerçek kusurlara oranı.
-mAP (Ortalama Doğruluk): Precision-recall eğrisinin altındaki alanı ölçer.
-IoU: Her tespit edilen kusurun IoU değeri hesaplanır ve ortalama IoU sonucu görüntülenir.
+Precision: Doğru tespit edilen kusurların, toplam tespit edilen kusurlara oranı.  
+Recall: Doğru tespit edilen kusurların, toplam gerçek kusurlara oranı.  
+mAP (Ortalama Doğruluk): Precision-recall eğrisinin altındaki alanı ölçer.  
+IoU: Her tespit edilen kusurun IoU değeri hesaplanır ve ortalama IoU sonucu görüntülenir.  
+
+![precision](https://github.com/user-attachments/assets/911dcb0c-ef17-4e51-b54a-8a8c2afe8b96)
+
 
 
 
